@@ -1,9 +1,9 @@
-resources:
-  - ../../base
+bases
+- ../../base
 
 patches:
   - path: replicas.yaml
 
 configMapGenerator:
-  - name: mykustom-map
+- name: mykustom-map
   env: config.properties
