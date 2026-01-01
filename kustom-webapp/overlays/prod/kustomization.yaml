@@ -2,7 +2,7 @@ bases:
 - ../../base
 
 patches:
- - patch: replicas.yaml
+ - path: replicas.yaml
 
 configMapGenerator:
 - name: mykustom-map
